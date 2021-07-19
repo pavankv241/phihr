@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@100,100;88.1,344&display=swap');
+
+.main{
+    display: flex;
+
+}
+
+.items{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+    width: 500px;
+    height: 500px;
+    border:  solid 1px rgb(148, 146, 146) ;
+    margin-left: 400px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.google{
+    width: 130px;
+    height: 40px;
+
+}
+
+.sheet{
+
+    width: 80px;
+    height: 80px;
+}
+.list>#words{
+   margin-left: 15px;
+    font-size: 20px;
+}
+
+#input{
+    width: 300px;
+    margin-top: -50px;
+}
+
+.items:hover{
+
+    box-shadow:   3px 3px 3px 3px  rgb(243, 241, 241);
+}
+
+
+
+
+
+
+@media (max-width : 640px ){
+
+    .items{
+        margin-left: -0.5px;
+    }
+    
+    #input{
+        width: 250px;
+    }
+}
+
+@media (max-width :360px){
+
+    .items{
+        width: 330px;
+        margin-left: 10px;
+        border:  solid 1px rgb(231, 229, 229) ;
+    }
+    #input{
+        width: 250px;
+    }
+
+}
+
+@media (max-widht:411px){
+
+    .items{
+        margin-right: 100px;
+        width: 390px;
+    }
+
+      
+    }
+
+    @media (max-width :320px){
+
+        .items{
+            width: 290px;
+            
+        }
+        #input{
+            width: 250px;
+        }
+    
+    }
+
+    @media (max-width:900px){
+
+        .main{
+            justify-content: center;
+            display: flex;
+            
+        }
+    }
+    
+
+
+
